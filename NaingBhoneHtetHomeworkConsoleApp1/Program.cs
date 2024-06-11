@@ -12,7 +12,7 @@ public class Program
         {
             Console.WriteLine("Login Fail Email and Password Cannot Be Empty");
         }
-        else if (email != null || password !=null )
+        else
         {
             Console.WriteLine("Login Successful");
         }
